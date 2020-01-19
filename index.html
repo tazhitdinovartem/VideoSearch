@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Search</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h1 style="margin-top: 40px;">
+          Поиск видео
+        </h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <form action="https://www.youtube.com/results/" method="GET">
+          <div class="form-group">
+            <img src="img/youtube.png" alt="youtube">
+            <label for="youtube">YouTube</label>
+            <input type="text" name="search_query" class="form-control">
+          </div>
+          <input type="submit" class="btn btn-primary" value="Искать">
+        </form>
+      </div>
+      <div class="col">
+        <form action="https://vimeo.com/search/" method="GET">
+          <div class="form-group">
+            <img src="img/vimeo.png" alt="vimeo">
+            <label for="vimeo">Vimeo</label>
+            <input type="text" name="q" class="form-control"> 
+          </div>
+          <input type="submit" class="btn btn-primary" value="Искать">
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
