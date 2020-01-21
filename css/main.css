@@ -1,3 +1,25 @@
+form label {
+  display: block;
+  font-weight: bold;
+  margin-top: 10px; }
 
+.container {
+  max-width: 800px; }
+
+h1 {
+  margin: 40px 0 30px; }
+
+.icon {
+  width: 35px; }
+
+.btn-primary {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 11px;
+  background-color: #fff;
+  border-color: #ced4da;
+  color: grey;
+  letter-spacing: 2px;
+  padding: 12px 27px; }
 
 /*# sourceMappingURL=main.css.map */
